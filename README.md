@@ -9,7 +9,7 @@ The challenge was to build exactly this calculator in the terminal, with these s
 
 ## What I've used
 
-I've used the basic of Python, in summary Match & case, If & Else, For & While, List, Try & Except, Input, and the basic print
+I've used the basic of Python, in summary Match & case, If & Else, For & While, List, Try & Except, Input, and the basic print.
 
 ## How it works?
 
