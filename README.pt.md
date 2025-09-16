@@ -19,3 +19,6 @@ O que eu usei em resumo:
 ## ⚙️ Como funciona?
 
 O programa começa pedindo para você escolher uma das opções para calcular. Depois de escolher, ele vai pedir alguns valores, vai realizar a operação e vai mostrar na tela o resultado. ✅
+
+## Teste
+[Link para Google colab](https://colab.research.google.com/drive/1vjqraosmrojPcxuzwodOa52gaPrYZJBc?usp=sharing)
