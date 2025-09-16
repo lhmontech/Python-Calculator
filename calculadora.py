@@ -6,7 +6,22 @@ while N != 0:
     match opcao:
 ##Cálculo da sequência de Fibonacci
         case 1:
-            print('Bem vindo ao calculo de Fibonacci.')
+           print('Bem vindo ao calculo de Fibonacci. Para realizar esta sequência, digite dois valores inteiros e positivos, para serem os valores iniciais da sequência:\n')
+           try:
+                Valor1 = int(input('Digite o numero inicial: '))
+                Valor2 = int(input('Digite o segundo numero: '))
+                limite = int(input('Digite o limite: '))
+                if limite < (Valor1 or Valor2):
+                    print('Valor limite inválido! insira um valor limite maior do que os valores iniciais!')
+                elif (Valor1 and Valor2) == 0:
+                    print(f'Erro! você digitou {Valor1} nos dois valores, isso da uma sequência infinita!')
+                else:
+                    while Valor2 <= limite:
+                        print(Valor1, Valor2, end=' ')
+                        Valor1 = Valor1 + Valor2
+                        Valor2 = Valor1 + Valor2
+            except ValueError:
+                print('Erro! Digite um número válido!')
 
 ##Cálculo para a sequência de Tribonacci
         case 2:
@@ -44,3 +59,4 @@ while N != 0:
 ##Opção para caso o usuário digite um valor fora das opções válidas
         case _:
             print('Erro! Digite um valor válido.')
+
