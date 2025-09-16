@@ -19,3 +19,6 @@ I've used the basics of Python, in summary:
 ## ⚙️ How it works?
 
 The program starts by asking you to choose an option for what you want to calculate. After you choose, it will ask for some values, perform the operation, and then print the result for you. ✅
+
+## Try it
+[Calculator](https://colab.research.google.com/drive/1vjqraosmrojPcxuzwodOa52gaPrYZJBc?usp=sharing)
