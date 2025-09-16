@@ -13,7 +13,7 @@ while N != 0:
                 limite = int(input('Digite o limite: '))
                 if limite < (Valor1 or Valor2):
                     print('Valor limite inválido! insira um valor limite maior do que os valores iniciais!')
-                elif (Valor1 and Valor2) == 0:
+                elif Valor1 == 0 and Valor2 == 0:
                     print(f'Erro! você digitou {Valor1} nos dois valores, isso da uma sequência infinita!')
                 else:
                     while Valor2 <= limite:
@@ -150,3 +150,4 @@ while N != 0:
 ##Opção para caso o usuário digite um valor fora das opções válidas
         case _:
             print('Erro! Digite um valor válido.')
+
