@@ -1,3 +1,5 @@
+🌍 Read this in [English](README.md) | Leia em [Português](README.pt.md)
+
 # 🧮 Calculadora Python
 ## 🎯 O desafio
 
