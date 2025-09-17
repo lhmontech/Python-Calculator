@@ -21,4 +21,4 @@ I've used the basics of Python, in summary:
 The program starts by asking you to choose an option for what you want to calculate. After you choose, it will ask for some values, perform the operation, and then print the result for you. ✅
 
 ## Try it
-[Link for Google colab](https://colab.research.google.com/drive/1vjqraosmrojPcxuzwodOa52gaPrYZJBc?usp=sharing)
+[Link for Google colab](https://colab.research.google.com/drive/1s03i9z_SWMrKJyXMa4ApU2Bw_MaxFbPS?usp=sharing)
