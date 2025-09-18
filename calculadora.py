@@ -16,10 +16,11 @@ while N != 0:
                 elif Valor1 == 0 and Valor2 == 0:
                     print(f'Erro! você digitou {Valor1} nos dois valores, isso da uma sequência infinita!')
                 else:
-                    while Valor2 <= limite:
-                        print(Valor1, Valor2, end=' ')
-                        Valor1 = Valor1 + Valor2
-                        Valor2 = Valor1 + Valor2
+                    while Valor1 <= limite:
+                        print(Valor1, end=' ')
+                        proximo = Valor1 + Valor2
+                        Valor1 = Valor2
+                        Valor2 = proximo
             except ValueError:
                 print('Erro! Digite um número válido!')
 ##Cálculo para a sequência de Tribonacci
@@ -35,11 +36,12 @@ while N != 0:
                 elif limite < (Valor1 or Valor2 or Valor3):
                     print('Valor limite inválido! insira um valor limite maior do que os valores iniciais!')
                 else:
-                    while Valor2 <= limite:
-                        print(Valor1, Valor2, Valor3, end=' ')
-                        Valor1 = Valor1 + Valor2 + Valor3
-                        Valor2 = Valor1 + Valor2 + Valor3
-                        Valor3 = Valor1 + Valor2 + Valor3
+                    while Valor1 <= limite:
+                        print(Valor1, end=' ')
+                        proximo = Valor1 + Valor2 + Valor3
+                        Valor1 = Valor2
+                        Valor2 = Valor3
+                        Valor3 = proximo
             except ValueError:
                 print('Erro! Digite um número válido!')
 ##Cálculo para a sequência geométrica
@@ -150,4 +152,5 @@ while N != 0:
 ##Opção para caso o usuário digite um valor fora das opções válidas
         case _:
             print('Erro! Digite um valor válido.')
+
 
