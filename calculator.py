@@ -16,10 +16,11 @@ while N != 0:
                 elif Value1 == 0 and Value2 == 0:
                     print(f'Error! You entered {Value1} for both values, this creates an infinite sequence!')
                 else:
-                    while Value2 <= limit:
-                        print(Value1, Value2, end=' ')
-                        Value1 = Value1 + Value2
-                        Value2 = Value1 + Value2
+                    while Value1 <= limit:
+                        print(Value1, end=' ')
+                        next = Value1 + Value2
+                        Value1 = Value2
+                        Value2 = next
             except ValueError:
                 print('Error! Enter a valid number!')
 
@@ -36,11 +37,12 @@ while N != 0:
                 elif limit < (Value1 or Value2 or Value3):
                     print('Invalid limit! Enter a limit greater than the initial values!')
                 else:
-                    while Value2 <= limit:
-                        print(Value1, Value2, Value3, end=' ')
-                        Value1 = Value1 + Value2 + Value3
-                        Value2 = Value1 + Value2 + Value3
-                        Value3 = Value1 + Value2 + Value3
+                    while Value1 <= limit:
+                        print(Value1, end=' ')
+                        next = Value1 + Value2 + Value3
+                        Value1 = Value2
+                        Value2 = Value3
+                        Value3 = next
             except ValueError:
                 print('Error! Enter a valid number!')
 
@@ -157,3 +159,4 @@ while N != 0:
         ## Invalid Option
         case _:
             print('Error! Enter a valid option.')
+
