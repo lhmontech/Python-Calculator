@@ -5,16 +5,16 @@
 
 A ideia deste projeto é colocar em prática o que eu aprendi em Python. Eu atualmente estou estudando essa linguagem, então decidir pegar um desafio que foi passado na minha faculdade e refazer em Python. O desafio era para montar uma calculadora em texto no terminal, exatamente com as mesmas opções que esta, porém usando a linguagem VisualG.
 
-## 🛠️ O que eu usei
+## 🛠️ Comandos usados
 
-O que eu usei em resumo:
-- Match & Case
-- If & Else
-- For & While
-- List
-- Try & Except
-- Input
-- Print
+Comandos que usei:    
+    - Match & Case
+    - If & Else
+    - For & While
+    - List
+    - Try & Except
+    - Input
+    - Print
 
 ## ⚙️ Como funciona?
 
@@ -22,3 +22,11 @@ O programa começa pedindo para você escolher uma das opções para calcular. D
 
 ## Teste
 [Link para Google colab](https://colab.research.google.com/drive/1vjqraosmrojPcxuzwodOa52gaPrYZJBc?usp=sharing)
+
+## 🛠️ Desenvolvido por
+
+**👤 Lucas Monteiro**
+
+- **GitHub:** @lhmontech
+- **LinkedIn:** https://www.linkedin.com/in/lucas-henrique-monteiro-55101a365/
+
