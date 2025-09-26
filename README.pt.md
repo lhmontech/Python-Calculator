@@ -8,13 +8,13 @@ A ideia deste projeto é colocar em prática o que eu aprendi em Python. Eu atua
 ## 🛠️ Comandos usados
 
 Comandos que usei:    
-    - Match & Case
-    - If & Else
-    - For & While
-    - List
-    - Try & Except
-    - Input
-    - Print
+- Match & Case
+- If & Else
+- For & While
+- List
+- Try & Except
+- Input
+- Print
 
 ## ⚙️ Como funciona?
 
