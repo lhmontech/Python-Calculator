@@ -5,7 +5,7 @@
 
 The purpose of this project is to put into practice what I've learned in Python. I'm currently studying this language, so I took a university challenge and recreated it in Python. The challenge was to build exactly this calculator in the terminal, with these same options, but originally in the programming language VisualG.
 
-## 🛠️ commands used
+## 🛠️ Commands used
 
 I've used the basics of Python:
 - Match & Case
