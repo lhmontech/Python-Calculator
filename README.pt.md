@@ -1,5 +1,9 @@
 🌍 Read this in [English](README.md) | Leia em [Português](README.pt.md)
 
+<p align="center">
+      <img src="PyCal-logo.png" alt="logo" width="200">
+</p>
+
 # 🧮 Calculadora Python
 ## 🎯 O desafio
 
