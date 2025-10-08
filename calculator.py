@@ -52,11 +52,11 @@ while N != 0:
             try:
                 Value1 = int(input('Enter the initial number: '))
                 Ratio = int(input('Enter the ratio: '))
-                limit = int(input('Enter the limit: '))
+                Value2 = int(input('Enter how many terms: '))
                 if Ratio == 1 or Ratio == 0 or Ratio == -1:
                     print(f'Error! You entered {Ratio} as the ratio, this creates an infinite sequence!')
                 else:
-                    while Value1 <= limit:
+                    for i in range(Value1, Value2 + 1):
                         print(Value1, end=' ')
                         Value1 = Value1 * Ratio
             except ValueError:
@@ -89,7 +89,8 @@ while N != 0:
                     print('The perfect squares within the interval you defined are:')
                     for i in range(Value1, Value2 + 1):
                         result = i**2
-                        print(f'{i} x {i} = {result}')
+                        if (result >= Value1) and (result <= Value2):
+                            print(f'{i} x {i} = {result}')
                         i += 1
             except ValueError:
                 print('Error! Enter a valid number!')
@@ -122,7 +123,7 @@ while N != 0:
             print('Welcome to the alternating sequence calculation. Enter the initial and final values of the interval:')
             try:
                 Value1 = int(input('Enter the initial number: '))
-                Value2 = int(input('Enter the final number: '))
+                Value2 = int(input('Enter how many terms: '))
                 if Value1 > Value2:
                     print('Invalid limit! Enter a limit greater than the initial value!')
                 else:
@@ -159,4 +160,5 @@ while N != 0:
         ## Invalid Option
         case _:
             print('Error! Enter a valid option.')
+
 
